@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/ElectricCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/Auto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/Bus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/ElecticCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/ElecticCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/EngineType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/EngineType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/ElecticCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/FuelAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/FuelAuto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/InheritanceMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/InheritanceMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/Truck.java" afterDir="false" />
     </list>
