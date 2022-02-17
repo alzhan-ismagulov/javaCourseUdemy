@@ -4,8 +4,8 @@ public class Bus extends FuelAuto{
 
     private int passengerNumber;
 
-    public Bus(String producer, String model, EngineType engineType, int avaliablePetrol, int tankVolume, int passengerNumber) {
-        super(producer, model, engineType, avaliablePetrol, tankVolume);
+    public Bus(String producer, String model, Engine engine, int avaliablePetrol, int tankVolume, int passengerNumber) {
+        super(producer, model, engine, avaliablePetrol, tankVolume);
         this.passengerNumber = passengerNumber;
         System.out.println("Constructing bus");
     }
@@ -33,7 +33,7 @@ public class Bus extends FuelAuto{
 
     public void pickUpPassengers(int passengerNum){
         this.passengerNumber+=passengerNum;
-        System.out.println("Picking up " + passengerNum + "passengers");
+        System.out.println("Picking up " + passengerNum + " passengers");
     }
 
     public void releasePassengers(){

@@ -4,8 +4,8 @@ public class FuelAuto extends Auto {
     private int avaliablePetrol;
     private int tankVolume;
 
-    public FuelAuto(String producer, String model, EngineType engineType, int avaliablePetrol, int tankVolume) {
-        super(producer, model, engineType);
+    public FuelAuto(String producer, String model, Engine engine, int avaliablePetrol, int tankVolume) {
+        super(producer, model, engine);
         this.avaliablePetrol = avaliablePetrol;
         this.tankVolume = tankVolume;
     }
