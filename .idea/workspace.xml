@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 31. Abstract Class">
-      <change afterPath="$PROJECT_DIR$/src/com/interfaces/CellPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interfaces/Deliverable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interfaces/Electronics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interfaces/Fridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interfaces/InterfaceRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interfaces/Orderable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interfaces/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/interfaces/Size.java" afterDir="false" />
+    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 32. Interface part 1">
+      <change afterPath="$PROJECT_DIR$/src/com/interfaces/Priceable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/interfaces/Deliverable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/interfaces/Deliverable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/interfaces/Electronics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/interfaces/Electronics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/interfaces/InterfaceRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/interfaces/InterfaceRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/interfaces/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/interfaces/Pizza.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663498795537</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit 32. Interface part 1">
+      <created>1663501948438</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663501948438</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Commit 32. Interface part 1">
+      <created>1663501967080</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663501967080</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +203,7 @@
     <MESSAGE value="Commit 29. Composition." />
     <MESSAGE value="Commit 30. Polymorphism." />
     <MESSAGE value="Commit 31. Abstract Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 31. Abstract Class" />
+    <MESSAGE value="Commit 32. Interface part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 32. Interface part 1" />
   </component>
 </project>
