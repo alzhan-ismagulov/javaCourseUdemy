@@ -6,37 +6,31 @@ public class InheritanceMain {
 
     public static void main(String[] args) {
 
-//        Engine truckEngine = new Engine(6.0,EngineType.DIESEL, 300);
-//
-//        Truck truck = new Truck("Man", "100", truckEngine, 1000, 3000, 20000);
-//        truck.start();
-//        truck.accelerate(40);
-//        truck.stop();
-//        truck.fuelUp(50);
-//        truck.load();
-//        truck.unload();
+        Engine truckEngine = new Engine(6.0, EngineType.DIESEL, 900);
+        Engine busEngine = new Engine(6.0, EngineType.PETROL, 1100);
 
-//        System.out.println("\n");
-//
-//        ElectricCar electricCar = new ElectricCar("Tesla", "S", 450, 5);
-//        electricCar.start();
-//        electricCar.stop();
-//        electricCar.charge();
-//
-//        System.out.println("\n");
+        Auto truck = new Truck("Volvo", "N300", truckEngine, 300, 1500, 20000);
+        Auto car = new ElectricCar("Tesla", "S", EngineType.ELECTRIC, 3000, 4);
+        Auto bus = new Bus("Mersedes", "Sprinter", busEngine, 200, 1500, 100);
+        Auto auto = new Auto("Volskwagen", "Polo", busEngine);
 
-        Engine busEngine = new Engine(3.0,EngineType.DIESEL, 500);
-
-        Bus bus = new Bus("Mersedes", "A180", busEngine, 1000, 3000, 100);
-        bus.fuelUp();
-        bus.pickUpPassengers(50);
         bus.start();
         bus.stop();
-        bus.releasePassengers();
+        truck.start();
+        truck.stop();
 
-        Engine engine = bus.getEngine();
-        System.out.println(engine.getEngineType());
-        List<Piston> pistons = engine.getPistons();
-        System.out.println(pistons);
+        runCar(bus);
+        runCar(truck);
+        runCar(car);
+        runCar(auto);
+    }
+
+    private static void runCar(Auto auto){
+        auto.start();
+        auto.stop();
+        if (auto instanceof Truck || auto instanceof Bus){
+            FuelAuto fuelAuto = (FuelAuto) auto;
+            fuelAuto.fuelUp(50);
+        }
     }
 }

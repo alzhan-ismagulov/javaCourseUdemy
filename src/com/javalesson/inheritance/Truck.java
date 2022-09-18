@@ -4,10 +4,24 @@ public class Truck extends FuelAuto{
 
     private int cargoWeight;
 
-    public Truck(String producer, String model, Engine engine, int avaliablePetrol, int tankVolume, int cargoWeight) {
-        super(producer, model, engine, avaliablePetrol, tankVolume);
+    public Truck(String producer, String model, Engine engine, int avialablePetrol, int tankVolume, int cargoWeight) {
+        super(producer, model, engine, avialablePetrol, tankVolume);
         this.cargoWeight = cargoWeight;
-        System.out.println("Constructing truck");
+        System.out.println("Construction truck");
+    }
+
+    @Override
+    public void start() {
+        isRunning = true;
+        setCurrentSpeed(10);
+        System.out.println("Truck is starting");
+    }
+
+    @Override
+    public void stop() {
+        isRunning = false;
+        setCurrentSpeed(0);
+        System.out.println("Truck is stoping");
     }
 
     public int getCargoWeight() {

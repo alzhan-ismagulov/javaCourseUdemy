@@ -1,7 +1,6 @@
 package com.javalesson.inheritance;
 
 public class Piston {
-
     private double volume;
     private int pistonNumber;
 

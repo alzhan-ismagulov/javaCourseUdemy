@@ -1,26 +1,40 @@
 package com.javalesson.inheritance;
 
 public class Bus extends FuelAuto{
-
     private int passengerNumber;
 
-    public Bus(String producer, String model, Engine engine, int avaliablePetrol, int tankVolume, int passengerNumber) {
-        super(producer, model, engine, avaliablePetrol, tankVolume);
+    public Bus(String producer, String model, Engine engine, int avialablePetrol, int tankVolume, int passengerNumber) {
+        super(producer, model, engine, avialablePetrol, tankVolume);
         this.passengerNumber = passengerNumber;
-        System.out.println("Constructing bus");
+        System.out.println("Bus was initialized");
+    }
+
+    @Override
+    public void start() {
+        isRunning = true;
+        setCurrentSpeed(10);
+        System.out.println("Bus is starting");
+    }
+
+    @Override
+    public void stop() {
+        isRunning = false;
+        setCurrentSpeed(0);
+        System.out.println("Bus is stoping");
     }
 
     public void fuelUp(){
-        int volume = getTankVolume() - getAvaliablePetrol();
+        int volume = getTankVolume() + getAvialablePetrol();
         fuelUp(volume);
     }
 
     @Override
     public void fuelUp(int petrolVolume) {
-        int volume = getAvaliablePetrol() + petrolVolume;
-        if (volume>getTankVolume()){
-            setAvaliablePetrol(getTankVolume());
+        int volume = getAvialablePetrol() + petrolVolume;
+        if(volume>getTankVolume()){
+            setAvialablePetrol(getTankVolume());
         }
+        System.out.println("Adding diesel");
     }
 
     public int getPassengerNumber() {
@@ -31,16 +45,17 @@ public class Bus extends FuelAuto{
         this.passengerNumber = passengerNumber;
     }
 
-    public void pickUpPassengers(int passengerNum){
-        this.passengerNumber+=passengerNum;
-        System.out.println("Picking up " + passengerNum + " passengers");
+    public void pickUpPassenger(int passengerNum){
+        this.passengerNumber += passengerNum;
+        System.out.println("Pick up " + passengerNum + " passenger");
     }
 
-    public void releasePassengers(){
-        if (isRunning){
+    public void releasePassenger(){
+        if (!isRunning){
             stop();
-            passengerNumber = 0;
-            System.out.println("Passengers released");
         }
+        passengerNumber = 0;
+        System.out.println("Passenger released");
     }
 }
+

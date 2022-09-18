@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="first commit">
+    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 29. Composition.">
+      <change afterPath="$PROJECT_DIR$/src/com/constructors/ConstructorsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/domainmodel/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/PetrolAuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loan/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loan/Loan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oop1/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oop1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oop1/Size.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/Auto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/Bus.java" afterDir="false" />
@@ -28,6 +37,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -51,7 +68,33 @@
       <recent name="com.javalesson.inheritance" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.InheritanceMain">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.loan.Calculator" />
+      <module name="javaCourseUdemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.loan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructorsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.constructors.ConstructorsMain" />
+      <module name="javaCourseUdemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.constructors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InheritanceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javalesson.inheritance.InheritanceMain" />
       <module name="javaCourseUdemy" />
@@ -65,9 +108,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oop1.Main" />
+      <module name="javaCourseUdemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oop1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.loan.Main" />
+      <module name="javaCourseUdemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.loan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.InheritanceMain" />
+        <item itemvalue="Application.ConstructorsMain" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -87,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644949288132</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit 29. Composition.">
+      <created>1645122043218</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645122043218</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +183,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Commit 29. Composition." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 29. Composition." />
   </component>
 </project>

@@ -1,26 +1,26 @@
 package com.javalesson.inheritance;
 
 public class FuelAuto extends Auto {
-    private int avaliablePetrol;
+    private int avialablePetrol;
     private int tankVolume;
 
-    public FuelAuto(String producer, String model, Engine engine, int avaliablePetrol, int tankVolume) {
+    public FuelAuto(String producer, String model, Engine engine, int avialablePetrol, int tankVolume) {
         super(producer, model, engine);
-        this.avaliablePetrol = avaliablePetrol;
+        this.avialablePetrol = avialablePetrol;
         this.tankVolume = tankVolume;
     }
 
     public void fuelUp(int petrolVolume){
-        avaliablePetrol+=petrolVolume;
+        avialablePetrol+=petrolVolume;
         System.out.println("Adding fuel");
     }
 
-    public int getAvaliablePetrol() {
-        return avaliablePetrol;
+    public int getAvialablePetrol() {
+        return avialablePetrol;
     }
 
-    public void setAvaliablePetrol(int avaliablePetrol) {
-        this.avaliablePetrol = avaliablePetrol;
+    public void setAvialablePetrol(int avialablePetrol) {
+        this.avialablePetrol = avialablePetrol;
     }
 
     public int getTankVolume() {

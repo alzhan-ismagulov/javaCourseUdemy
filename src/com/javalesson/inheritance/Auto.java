@@ -24,12 +24,16 @@ public class Auto {
     public void stop(){
         isRunning = false;
         currentSpeed = 0;
-        System.out.println("Auto has stopped");
+        System.out.println("Auto is stopping");
+    }
+
+    public void setCurrentSpeed(int currentSpeed) {
+        this.currentSpeed = currentSpeed;
     }
 
     public void accelerate(int kmPerHour){
-        currentSpeed+=kmPerHour;
-        System.out.println("Accelerating. Current speed is " + currentSpeed + " kmPerHour");
+        currentSpeed += kmPerHour;
+        System.out.println("Acceleration. Current speed is " + currentSpeed + " kmPerHour");
     }
 
     public String getProducer() {
@@ -40,6 +44,10 @@ public class Auto {
         return model;
     }
 
+    public Engine getEngineType() {
+        return engine;
+    }
+
     public int getCurrentSpeed() {
         return currentSpeed;
     }
@@ -48,7 +56,18 @@ public class Auto {
         return isRunning;
     }
 
-    public Engine getEngine(){
+    public Engine getEngine() {
         return engine;
+    }
+
+    @Override
+    public String toString() {
+        return "Auto{" +
+                "producer='" + producer + '\'' +
+                ", model='" + model + '\'' +
+                ", engine=" + engine +
+                ", currentSpeed=" + currentSpeed +
+                ", isRunning=" + isRunning +
+                '}';
     }
 }
