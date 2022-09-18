@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 29. Composition.">
-      <change afterPath="$PROJECT_DIR$/src/com/constructors/ConstructorsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/domainmodel/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/PetrolAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loan/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loan/Loan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oop1/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oop1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oop1/Size.java" afterDir="false" />
+    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 30. Polymorphism.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/Auto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/ElectricCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/ElectricCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/Engine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/FuelAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/FuelAuto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/InheritanceMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/InheritanceMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/Piston.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/Piston.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/PetrolAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/PetrolAuto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/javalesson/inheritance/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalesson/inheritance/Truck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645122043218</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit 30. Polymorphism.">
+      <created>1663498025140</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663498025140</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +182,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="Commit 29. Composition." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 29. Composition." />
+    <MESSAGE value="Commit 30. Polymorphism." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 30. Polymorphism." />
   </component>
 </project>

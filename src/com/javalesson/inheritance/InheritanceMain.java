@@ -12,7 +12,7 @@ public class InheritanceMain {
         Auto truck = new Truck("Volvo", "N300", truckEngine, 300, 1500, 20000);
         Auto car = new ElectricCar("Tesla", "S", EngineType.ELECTRIC, 3000, 4);
         Auto bus = new Bus("Mersedes", "Sprinter", busEngine, 200, 1500, 100);
-        Auto auto = new Auto("Volskwagen", "Polo", busEngine);
+//        Auto auto = new Auto("Volskwagen", "Polo", busEngine);
 
         bus.start();
         bus.stop();
@@ -22,15 +22,12 @@ public class InheritanceMain {
         runCar(bus);
         runCar(truck);
         runCar(car);
-        runCar(auto);
+//        runCar(auto);
     }
 
     private static void runCar(Auto auto){
         auto.start();
         auto.stop();
-        if (auto instanceof Truck || auto instanceof Bus){
-            FuelAuto fuelAuto = (FuelAuto) auto;
-            fuelAuto.fuelUp(50);
-        }
+        auto.energize();
     }
 }
