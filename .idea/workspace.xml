@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 33. Interface part 2">
-      <change afterPath="$PROJECT_DIR$/src/com/innerclasses/CellPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/innerclasses/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/innerclasses/Main.java" afterDir="false" />
+    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 34. Nested Classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/innerclasses/CellPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/innerclasses/CellPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/innerclasses/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/innerclasses/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/innerclasses/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/innerclasses/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663518267476</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit 34. Nested Classes">
+      <created>1663520172047</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663520172047</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,6 +217,7 @@
     <MESSAGE value="Commit 31. Abstract Class" />
     <MESSAGE value="Commit 32. Interface part 1" />
     <MESSAGE value="Commit 33. Interface part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 33. Interface part 2" />
+    <MESSAGE value="Commit 34. Nested Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 34. Nested Classes" />
   </component>
 </project>
