@@ -6,6 +6,12 @@ public class CellPhone {
     private String make;
     private String model;
     private Display display;
+    private RadioModule gsm;
+    private AbstractPhoneButton button;
+
+    public interface AbstractPhoneButton{
+        void click();
+    }
 
     //Создание конструктора класса
     public CellPhone(String make, String model) {
@@ -17,7 +23,22 @@ public class CellPhone {
     //Создание метода
     public void turnOn(){
         initDisplay();
-        System.out.println("Display turn on");
+        gsm = new RadioModule();
+        initButton();
+    }
+
+    public void initButton(){
+        button = new AbstractPhoneButton() {
+            @Override
+            public void click() {
+                System.out.println("Button clicked");
+            }
+        };
+    }
+
+    public void call(String number  ){
+        button.click();
+        gsm.call(number);
     }
 
     //Создание метода

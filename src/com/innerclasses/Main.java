@@ -5,6 +5,7 @@ public class Main {
         //Создание объекта phone
         CellPhone phone = new CellPhone("Apple", "S");
         phone.turnOn();
-        Display display = phone.getDisplay();
+
+        phone.call("1234567890");
     }
 }

@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 34. Nested Classes">
+      <change afterPath="$PROJECT_DIR$/src/com/innerclasses/RadioModule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/innerclasses/CellPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/innerclasses/CellPhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/innerclasses/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/innerclasses/Display.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/innerclasses/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/innerclasses/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/interfaces/Deliverable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/interfaces/Deliverable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +54,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.innerclasses" />
       <recent name="com.javalesson.inheritance" />
     </key>
   </component>
@@ -196,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663520172047</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Commit 34. Nested Classes">
+      <created>1663520670467</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663520670467</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -6,6 +6,7 @@ public class Display {
     //Свойства класса
     private final static int DISPLAY_HEIGHT = 1920;
     private final static int DISPLAY_WIDTH = 1080;
+    private int x = 0;
 
     //Создание конструктора класса Display
     public Display() {
@@ -14,7 +15,7 @@ public class Display {
     }
 
     //Создание внутреннего класса
-    private static class Pixel{
+    private class Pixel{
         //Свойства класса
         private int x;
         private int y;
@@ -31,6 +32,12 @@ public class Display {
                 throw new IllegalArgumentException("Coordinates x and y should be between 0 -" + DISPLAY_WIDTH + " and 0 + " + DISPLAY_HEIGHT);
             }
         }
+
+//        public void testScope(int x){
+//            System.out.println("x = " + x);
+//            System.out.println("this.x = " + this.x);
+//            System.out.println("Display.this.x = " + Display.this.x);
+//        }
     }
 
     //Создание перечисления Color
