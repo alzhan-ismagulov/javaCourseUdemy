@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 36. One-dimensional array">
-      <change afterPath="$PROJECT_DIR$/src/com/collections/arrays/SortArray.java" afterDir="false" />
+    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 37. Indexes of Array">
+      <change afterPath="$PROJECT_DIR$/src/com/collections/arrays/Divination.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/collections/arrays/ArrayLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/collections/arrays/ArrayLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/collections/arrays/Dies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/collections/arrays/Dies.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <recent name="com.javalesson.inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayLauncher">
+  <component name="RunManager" selected="Application.Divination">
     <configuration name="ArrayLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.collections.arrays.ArrayLauncher" />
       <module name="javaCourseUdemy" />
@@ -69,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritanceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javalesson.inheritance.InheritanceMain" />
+    <configuration name="Dies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.collections.arrays.Dies" />
       <module name="javaCourseUdemy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javalesson.inheritance.*" />
+          <option name="PATTERN" value="com.collections.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfaceRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interfaces.InterfaceRunner" />
+    <configuration name="Divination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.collections.arrays.Divination" />
       <module name="javaCourseUdemy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interfaces.*" />
+          <option name="PATTERN" value="com.collections.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Divination" />
+        <item itemvalue="Application.Dies" />
         <item itemvalue="Application.ArrayLauncher" />
         <item itemvalue="Application.SortArray" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.InterfaceRunner" />
-        <item itemvalue="Application.InheritanceMain" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663693317589</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Commit 37. Indexes of Array">
+      <created>1663696264623</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663696264623</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,6 +248,7 @@
     <MESSAGE value="Commit 34. Nested Classes" />
     <MESSAGE value="Commit 35. Local&amp;Anonimus Classes" />
     <MESSAGE value="Commit 36. One-dimensional array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 36. One-dimensional array" />
+    <MESSAGE value="Commit 37. Indexes of Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 37. Indexes of Array" />
   </component>
 </project>
