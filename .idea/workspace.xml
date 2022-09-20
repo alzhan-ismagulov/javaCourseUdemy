@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 35. Local&amp;Anonimus Classes">
-      <change afterPath="$PROJECT_DIR$/src/com/collections/arrays/ArrayLauncher.java" afterDir="false" />
+    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 36. One-dimensional array">
+      <change afterPath="$PROJECT_DIR$/src/com/collections/arrays/SortArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/collections/arrays/ArrayLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/collections/arrays/ArrayLauncher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,19 +69,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructorsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.constructors.ConstructorsMain" />
-      <module name="javaCourseUdemy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.constructors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InheritanceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javalesson.inheritance.InheritanceMain" />
       <module name="javaCourseUdemy" />
@@ -120,13 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.collections.arrays.SortArray" />
+      <module name="javaCourseUdemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.collections.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ArrayLauncher" />
+        <item itemvalue="Application.SortArray" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.InterfaceRunner" />
         <item itemvalue="Application.InheritanceMain" />
-        <item itemvalue="Application.ConstructorsMain" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663692619950</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Commit 36. One-dimensional array">
+      <created>1663693317589</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663693317589</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +240,7 @@
     <MESSAGE value="Commit 33. Interface part 2" />
     <MESSAGE value="Commit 34. Nested Classes" />
     <MESSAGE value="Commit 35. Local&amp;Anonimus Classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 35. Local&amp;Anonimus Classes" />
+    <MESSAGE value="Commit 36. One-dimensional array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 36. One-dimensional array" />
   </component>
 </project>
