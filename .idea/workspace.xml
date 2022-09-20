@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 34. Nested Classes">
-      <change afterPath="$PROJECT_DIR$/src/com/innerclasses/RadioModule.java" afterDir="false" />
+    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 35. Local&amp;Anonimus Classes">
+      <change afterPath="$PROJECT_DIR$/src/com/collections/arrays/ArrayLauncher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/innerclasses/CellPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/innerclasses/CellPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/innerclasses/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/innerclasses/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/innerclasses/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/innerclasses/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/interfaces/Deliverable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/interfaces/Deliverable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +54,20 @@
       <recent name="com.javalesson.inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ArrayLauncher">
+    <configuration name="ArrayLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.collections.arrays.ArrayLauncher" />
+      <module name="javaCourseUdemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.collections.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConstructorsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.constructors.ConstructorsMain" />
       <module name="javaCourseUdemy" />
@@ -98,19 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.oop1.Main" />
-      <module name="javaCourseUdemy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.oop1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.innerclasses.Main" />
       <module name="javaCourseUdemy" />
@@ -126,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayLauncher" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.InterfaceRunner" />
         <item itemvalue="Application.InheritanceMain" />
         <item itemvalue="Application.ConstructorsMain" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663520670467</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Commit 35. Local&amp;Anonimus Classes">
+      <created>1663692619950</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663692619950</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +231,7 @@
     <MESSAGE value="Commit 32. Interface part 1" />
     <MESSAGE value="Commit 33. Interface part 2" />
     <MESSAGE value="Commit 34. Nested Classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 34. Nested Classes" />
+    <MESSAGE value="Commit 35. Local&amp;Anonimus Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 35. Local&amp;Anonimus Classes" />
   </component>
 </project>
