@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 46. Queue, Deque">
-      <change afterPath="$PROJECT_DIR$/src/com/set/SetRunner.java" afterDir="false" />
+    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 47. Set">
+      <change afterPath="$PROJECT_DIR$/src/com/set/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/set/SetRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/set/SetRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664709162876</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Commit 47. Set">
+      <created>1664710340307</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664710340307</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,7 +284,8 @@
     <MESSAGE value="Commit 44. ArrayList" />
     <MESSAGE value="Commit 45. LinkedList" />
     <MESSAGE value="Commit 46. Queue, Deque" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 46. Queue, Deque" />
+    <MESSAGE value="Commit 47. Set" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 47. Set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
