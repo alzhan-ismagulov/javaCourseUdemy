@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 45. LinkedList">
-      <change afterPath="$PROJECT_DIR$/src/com/StackQueue/StackQueueLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/autoboxing/CollectionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/collectionClass/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/collectionClass/CardComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/collectionClass/CollectionsRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/collections/arrays/ListRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/collections/arrays/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/collections/arrays/ToDoList.java" afterDir="false" />
+    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 46. Queue, Deque">
+      <change afterPath="$PROJECT_DIR$/src/com/set/SetRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,26 +57,13 @@
       <recent name="com.collectionClass" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StackQueueLauncher">
+  <component name="RunManager" selected="Application.SetRunner">
     <configuration name="CollectionsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.collectionClass.CollectionsRunner" />
       <module name="javaCourseUdemy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.collectionClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GradeBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.collections.arrays.GradeBook" />
-      <module name="javaCourseUdemy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.collections.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,6 +97,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SetRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.set.SetRunner" />
+      <module name="javaCourseUdemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StackQueueLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.StackQueue.StackQueueLauncher" />
       <module name="javaCourseUdemy" />
@@ -132,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetRunner" />
         <item itemvalue="Application.StackQueueLauncher" />
         <item itemvalue="Application.CollectionsRunner" />
         <item itemvalue="Application.ListRunner" />
         <item itemvalue="Application.MyArrayList" />
-        <item itemvalue="Application.GradeBook" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663960481838</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Commit 46. Queue, Deque">
+      <created>1664709162876</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664709162876</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,7 +275,8 @@
     <MESSAGE value="Commit 43. Two-dimensional arrays" />
     <MESSAGE value="Commit 44. ArrayList" />
     <MESSAGE value="Commit 45. LinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 45. LinkedList" />
+    <MESSAGE value="Commit 46. Queue, Deque" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 46. Queue, Deque" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
