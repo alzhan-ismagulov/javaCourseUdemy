@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 47. Set">
-      <change afterPath="$PROJECT_DIR$/src/com/set/Car.java" afterDir="false" />
+    <list default="true" id="d3099162-b3fe-42d0-a38d-565bd3cdd3f5" name="Changes" comment="Commit 48. HashSet">
+      <change afterPath="$PROJECT_DIR$/src/com/map/MapLauncher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/set/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/set/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/set/SetRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/set/SetRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +59,7 @@
       <recent name="com.collectionClass" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SetRunner">
+  <component name="RunManager" selected="Application.MapLauncher">
     <configuration name="CollectionsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.collectionClass.CollectionsRunner" />
       <module name="javaCourseUdemy" />
@@ -85,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.collections.arrays.MyArrayList" />
+    <configuration name="MapLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.map.MapLauncher" />
       <module name="javaCourseUdemy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.collections.arrays.*" />
+          <option name="PATTERN" value="com.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapLauncher" />
         <item itemvalue="Application.SetRunner" />
         <item itemvalue="Application.StackQueueLauncher" />
         <item itemvalue="Application.CollectionsRunner" />
         <item itemvalue="Application.ListRunner" />
-        <item itemvalue="Application.MyArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664710340307</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Commit 48. HashSet">
+      <created>1664724323243</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664724323243</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,7 +293,8 @@
     <MESSAGE value="Commit 45. LinkedList" />
     <MESSAGE value="Commit 46. Queue, Deque" />
     <MESSAGE value="Commit 47. Set" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 47. Set" />
+    <MESSAGE value="Commit 48. HashSet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 48. HashSet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

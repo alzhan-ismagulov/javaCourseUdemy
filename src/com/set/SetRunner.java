@@ -18,11 +18,10 @@ public class SetRunner {
         europaCars.add(new Car("VW", "Golf", 45));
         europaCars.add(new Car("VW", "Polo", 35));
 
-        Set<Car> uniqueCars = new HashSet<>(sixCars);
+        Set<Car> uniqueCars = new TreeSet<>(sixCars);
         uniqueCars.addAll(europaCars);
+
         print(uniqueCars);
-
-
     }
 
     private static void print(Set<Car> cars){

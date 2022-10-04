@@ -1,6 +1,6 @@
 package com.set;
 
-public class Car {
+public class Car implements Comparable<Car>{
 
     private final String carBrand;
     private final String model;
@@ -40,5 +40,24 @@ public class Car {
             return false;
         }
         return this.carBrand.equals(car.getPricePerDay());
+    }
+
+    @Override
+    public int hashCode() {
+        int result = carBrand.hashCode();
+        result = 31 * result + model.hashCode();
+        result = 31 * result + pricePerDay.hashCode();
+        return result;
+    }
+
+    @Override
+    public int compareTo(Car car) {
+        if (pricePerDay < car.getPricePerDay()){
+            return -1;
+        }
+        if (pricePerDay > car.getPricePerDay()){
+            return 1;
+        }
+        return 0;
     }
 }
